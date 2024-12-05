@@ -1,0 +1,97 @@
+.section__wrapper {
+	display: flex;
+	flex-direction: column;
+	padding-left: 115px;
+}
+
+.vaxaxa {
+	display: flex;
+	gap: 30px;
+}
+.pororo {
+	color: white;
+	font-size: 23.99px;
+    line-height: 38.38px;
+}
+.lol {
+	color: white;
+	font-size: 22px;
+	line-height: 35.2px;
+	padding-bottom: 30px;
+}
+
+.ecbiri {
+	margin-top: 80px;
+	color: white;
+	font-weight: 600;
+	font-size: 67px;
+	line-height: 73.7px;
+	padding-bottom: 20px;
+}
+
+.btn2 {
+	width: 224px;
+	height: 60px;
+	background-color: #a259ff;
+	padding: 0 50px;
+	border-radius: 20px;
+	color: white;
+	font-weight: 600;
+	line-height: 22.4px;
+	text-align: center;
+	margin-bottom: 30px;
+	border-color: transparent;
+}
+
+.section1__wrapper {
+	display: flex;
+}
+
+.section__moon {
+	display: flex;
+	flex-direction: column;
+}
+
+.moon__img {
+	padding-top: 80px;
+	object-fit: cover;
+}
+
+.moon__info-wrapper {
+	width: 510px;
+	height: 109px;
+	background-color: #3b3b3b;
+	border-radius: 10px;
+}
+
+.moon__info {
+	color: white;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 30.8px;
+	padding-top: 22px;
+	padding-right: 20px;
+	padding-left: 22px;
+	padding-bottom: 10px;
+}
+
+.moon__avatar-info {
+	color: white;
+	font-size: 16px;
+	line-height: 22.4px;
+	position: relative;
+	padding-right: 20px;
+	padding-left: 50px;
+	padding-bottom: 24px;
+}
+
+.moon__avatar-info::before {
+	position: absolute;
+	content: '';
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	background-image: url(/assests/avatar.svg);
+	left: 20px;
+	top: 0px;
+}

@@ -1,0 +1,34 @@
+.header__wrapper {
+	padding: 20px 50px;
+	@include d-flex(space-between, 0);
+}
+
+.nav__link {
+	color: white;
+}
+
+.btn {
+	padding: 0 30px;
+	border-radius: 20px;
+	background-color: #a259ff;
+	color: white;
+	width: 152px;
+	height: 50px;
+	position: relative;
+	border-color: transparent;
+}
+
+.btn::before {
+	position: absolute;
+	content: '';
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	background-image: url(/assests/user.svg);               
+	left: 20px;
+    top: 12px;                        
+}
+
+.nav__wrapper {
+	@include d-flex(space-between, 20px);
+}
