@@ -11,7 +11,7 @@
 .pororo {
 	color: white;
 	font-size: 23.99px;
-    line-height: 38.38px;
+    line-height: 38.38p;
 }
 .lol {
 	color: white;
@@ -45,6 +45,7 @@
 
 .section1__wrapper {
 	display: flex;
+	justify-content: space-between;
 }
 
 .section__moon {
@@ -53,8 +54,9 @@
 }
 
 .moon__img {
-	padding-top: 80px;
+	margin-top: 80px;
 	object-fit: cover;
+	border-radius: 30px;
 }
 
 .moon__info-wrapper {
